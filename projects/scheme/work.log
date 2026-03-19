@@ -1,0 +1,9 @@
+scheme.py   read_line 将用户键入的字符串形式文本转换成pair表达式
+            scheme_eavl 对pair表达式进行一次评估,返回其评估值 core function consist in scheme_listp maybe it is a synax checker 
+pair.py     a pair has two attributes : first and rest, rest must be a pair or nil;first must be a pair ,value,special procedure,define
+            or operand
+            nil is a class, 
+            >>>print(pair(1,nil)) because the function "print" display its str format for the Users simply
+            (1,nil)
+            
+2025.9.29  consummate the frame, we can define and find the variable value     
